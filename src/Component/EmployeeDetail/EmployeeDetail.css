@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .detail-container{
+    width: auto;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .detail-displayer {
+    width: auto;
+    height: 50vh;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #312DA61A;
+    box-shadow: 0px 21px 60px 0px #20247312;
+    border-radius: 15px;
+  }
+  .content {
+   display: flex;
+   justify-content: space-evenly;
+  }
+  .companyLogo{
+    width: 36%;
+    border-radius: 70%;
+  }
+  img.companyLogo {
+    width: 280px;
+    height: 300px;
+  }
+  .main-content{
+    width: 64%;
+    padding: 10px;
+    font-family: PT Sans;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .main-content p {
+    font-family: PT Sans;
+    font-size: 18px;
+    padding: 8px 0;
+  }
+  .content h2 {
+    color: #202473;
+    opacity: 0.4;
+    font-size: 30 px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding: 10px 0;
+  }
+  .viewButton{
+    margin-top: 20px;
+    padding: 10px 12px;
+    border-radius: 17px;
+    outline:none;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: #827777;
+    color: #fff;
+    
+
+  }
+  .viewButton:hover {
+    color: rgb(14, 17, 17);
+    background-color: rgb(211, 206, 206);
+}
+  
+
