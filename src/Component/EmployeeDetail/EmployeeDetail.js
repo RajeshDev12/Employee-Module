@@ -13,7 +13,7 @@ function EmployeeDetail() {
       .then((res) => {
         setEmployeeDetail(res.data);
       });
-  }, []);
+  }, [location.state.id]);
 
   return (
     <>

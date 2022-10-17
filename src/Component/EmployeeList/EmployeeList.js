@@ -47,6 +47,8 @@ function EmployeeList() {
                   </td>
                 </tr>
               );
+            } else {
+              return;
             }
           })}
         </tbody>
