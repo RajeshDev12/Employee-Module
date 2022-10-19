@@ -32,7 +32,7 @@ function EmployeeDetail() {
                 <p>{detail.interests}</p>
                 <p>{detail.designation}</p>
                 <p>{detail.job_descripton}</p>
-                <a href={detail.view_more} target="blank">
+                <a href={detail.view_more} target="_blank" rel="noreferrer noopener">
                   <button className="viewButton">View more</button>
                 </a>
               </div>
